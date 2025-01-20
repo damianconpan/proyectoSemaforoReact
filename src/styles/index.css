@@ -9,3 +9,45 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.semaforo{
+    margin-left: 100px;
+    margin-top: 50px;
+    background-color: black;
+    height: 500px;
+    width: 200px;
+    border-radius: 5%;
+    display: inline-block;
+}
+.rojo{
+    margin-left: 50px;
+    margin-top: 60px;
+    border-radius: 60%;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+.amarillo{
+    margin-left: 50px;
+    margin-top: 40px;
+    border-radius: 60%;
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+}
+.verde{
+    margin-left: 50px;
+    margin-top: 40px;
+    border-radius: 60%;
+    background-color: green;
+    height: 100px;
+    width: 100px;
+}
+.rojo.active {
+    box-shadow: 0 0 20px 10px red;
+}
+.amarillo.active {
+    box-shadow: 0 0 20px 10px yellow;
+}
+.verde.active {
+    box-shadow: 0 0 20px 10px green;
+}
